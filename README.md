@@ -34,3 +34,4 @@ create APIs
   4.profile/edit
   5.profile/changePassword
   6.profile/logout
+  7.request/send/:status/:userId

@@ -32,3 +32,4 @@ create APIs
 }
 
   4.profile/edit
+  5.profile/changePassword

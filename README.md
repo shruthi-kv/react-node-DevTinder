@@ -25,3 +25,4 @@ create APIs
   5.profile/changePassword
   6.profile/logout
   7.request/send/:status/:userId
+  8.request/review/:status/:connectionId

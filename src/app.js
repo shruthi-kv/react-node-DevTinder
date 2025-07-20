@@ -8,8 +8,10 @@ app.use(cookieParser()); // enables cookie parsing;
 
 
 const authRouter = require('./routes/auth')
+const profileRouter = require('./routes/profile')
 
 app.use('/', authRouter);
+app.use('/', profileRouter);
 
 app.use('/test', (req, res) => {
     console.log("Hello welcome")

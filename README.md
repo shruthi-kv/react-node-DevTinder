@@ -21,3 +21,5 @@ create APIs
 
      2.Login - models, routes
      npm i jsonwebtoken
+
+     3.profile/view - authentication, cookies

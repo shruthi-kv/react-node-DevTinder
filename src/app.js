@@ -1,6 +1,15 @@
 const express = require('express')
 const connectDB = require('./config/database');
-const app = express()
+const app = express();
+const cookieParser = require('cookie-parser')
+
+app.use(express.json()) // parses incoming requests to JSON payloads and makes the parsed data available in req.body;
+app.use(cookieParser()); // enables cookie parsing;
+
+
+const authRouter = require('./routes/auth')
+
+app.use('/', authRouter);
 
 app.use('/test', (req, res) => {
     console.log("Hello welcome")

@@ -36,3 +36,7 @@ create APIs
   6.profile/logout
   7.request/send/:status/:userId
   8.request/review/:status/:connectionId
+
+  9.get/connections
+  10.get/requests
+  11.get/feed

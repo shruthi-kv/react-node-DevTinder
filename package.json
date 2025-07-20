@@ -2,5 +2,8 @@
   "dependencies": {
     "express": "^5.1.0",
     "mongoose": "^8.16.4"
+  },
+  "scripts" :{
+    "dev" : "nodemon src/app"
   }
 }

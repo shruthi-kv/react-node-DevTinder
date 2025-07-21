@@ -20,7 +20,7 @@ authRouter.post("/signup", async(req,res) =>{
     })
 
     await user.save();
-    res.send("user data saved successfully");
+    res.send(user,+ "user data saved successfully");
 
     }catch(error){
         res.status(400).send("ERROR : " + error.message)
@@ -42,10 +42,11 @@ authRouter.post("/login", async(req,res)=>{
             const token = await jwt.sign({_id:user._id }, "DEV@TINDER@2025", {expiresIn:'1d'});
             res.cookie("token", token);
 
-            res.send("User logged in Successfully")
+            res.status(200).send(user)
         }else{
             res.status(401).send("Password does not match")
         }
+        
 
     }catch(error){
         res.status(400).send("ERROR : " + error.message);

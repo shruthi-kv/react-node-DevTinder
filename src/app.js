@@ -2,7 +2,9 @@ const express = require('express')
 const connectDB = require('./config/database');
 const app = express();
 const cookieParser = require('cookie-parser')
+const cors = require('cors')
 
+app.use(cors())
 app.use(express.json()) // parses incoming requests to JSON payloads and makes the parsed data available in req.body;
 app.use(cookieParser()); // enables cookie parsing;
 

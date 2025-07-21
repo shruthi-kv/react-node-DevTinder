@@ -40,3 +40,5 @@ create APIs
   9.get/connections
   10.get/requests
   11.get/feed
+
+  CORS middleware added

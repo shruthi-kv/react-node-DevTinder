@@ -42,3 +42,4 @@ create APIs
   11.get/feed
 
   CORS middleware added
+  set the origin, credentials:true

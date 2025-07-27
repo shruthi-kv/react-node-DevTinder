@@ -41,7 +41,6 @@ authRouter.post("/login", async(req,res)=>{
         if(passwordMatch){
             const token = await jwt.sign({_id:user._id }, "DEV@TINDER@2025", {expiresIn:'1d'});
             res.cookie("token", token);
-            console.log(user)
             res.status(200).send(user)
         }else{
             res.status(401).send("Password does not match")

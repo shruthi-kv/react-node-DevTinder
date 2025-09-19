@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1758273223201" clover="3.2.0">
+  <project timestamp="1758273223201" name="All files">
+    <metrics statements="15" coveredstatements="15" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1" elements="18" coveredelements="18" complexity="0" loc="15" ncloc="15" packages="1" files="2" classes="2"/>
+    <file name="connectionRequest.js" path="/Users/shruthikv/Documents/NodeJs/devTinder/src/models/connectionRequest.js">
+      <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="28" count="1" type="stmt"/>
+      <line num="30" count="1" type="stmt"/>
+      <line num="31" count="2" type="stmt"/>
+      <line num="32" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="33" count="1" type="stmt"/>
+      <line num="35" count="1" type="stmt"/>
+      <line num="38" count="1" type="stmt"/>
+      <line num="40" count="1" type="stmt"/>
+    </file>
+    <file name="user.js" path="/Users/shruthikv/Documents/NodeJs/devTinder/src/models/user.js">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <line num="1" count="3" type="stmt"/>
+      <line num="4" count="3" type="stmt"/>
+      <line num="43" count="3" type="stmt"/>
+      <line num="45" count="3" type="stmt"/>
+      <line num="46" count="3" type="stmt"/>
+    </file>
+  </project>
+</coverage>

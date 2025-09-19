@@ -1,7 +1,7 @@
 # react-node-DevTinder
 
 create our server
-    npm i express
+    npm i express 
 install nodemon glabally
     npm i -g nodemon
 connect to the DB
@@ -12,34 +12,7 @@ create APIs
     npm i validator
 
 
-{
-  "firstName":"Shruthi",
-  "lastName":"KV",
-  "email":"Shruthi@gmai.com",
-  "password":"Shruthi@123"
-}
-
-     2.Login - models, routes
-     npm i jsonwebtoken
-
-     3.profile/view - authentication, cookies
-
-{
-  "firstName":"macbook",
-  "lastName":"hello",
-  "email":"Macbook@gmai.com",
-  "password":"Macbook@123"
-}
-
-  4.profile/edit
-  5.profile/changePassword
-  6.profile/logout
-  7.request/send/:status/:userId
-  8.request/review/:status/:connectionId
-
-  9.get/connections
-  10.get/requests
-  11.get/feed
-
   CORS middleware added
   set the origin, credentials:true
+
+  Coverage
